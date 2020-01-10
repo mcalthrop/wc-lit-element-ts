@@ -6,8 +6,6 @@ Simple repo to demonstrate web components using [lit-element](https://lit-elemen
 
 Contains the minimum effort required to implement the `@customElement` and `@property` decorators, which are demonstrated in the [`my-element.ts`](./my-element.ts) file.
 
-> Note: I haven't yet worked out why the `@types/form-data` package is required, but it won't compile without this.
-
 ## Usage
 
 Install packages:

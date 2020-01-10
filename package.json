@@ -8,14 +8,13 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "serve": "polymer serve"
+    "serve": "es-dev-server --node-resolve --watch"
   },
   "dependencies": {
     "lit-element": "2.2.1"
   },
   "devDependencies": {
-    "@types/form-data": "2.5.0",
-    "polymer-cli": "1.9.11",
+    "es-dev-server": "1.36.1",
     "typescript": "3.7.4"
   }
 }

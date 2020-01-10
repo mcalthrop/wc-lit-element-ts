@@ -1,0 +1,21 @@
+{
+  "name": "wc-lit-element-ts",
+  "version": "1.0.0",
+  "description": "Web components using lit element and typescript with decorators",
+  "main": "index.js",
+  "author": "Matt Calthrop <mcalthrop@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "polymer serve"
+  },
+  "dependencies": {
+    "lit-element": "2.2.1"
+  },
+  "devDependencies": {
+    "@types/form-data": "2.5.0",
+    "polymer-cli": "1.9.11",
+    "typescript": "3.7.4"
+  }
+}
